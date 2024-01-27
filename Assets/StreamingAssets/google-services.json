@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "449889443394",
+    "firebase_url": "https://motionsicknessteleportation-default-rtdb.firebaseio.com",
+    "project_id": "motionsicknessteleportation",
+    "storage_bucket": "motionsicknessteleportation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449889443394:android:045f8cdf2c9461f11b97db",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.cosc590"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPN5i6MMC4-Y1OT-MH106CuDkvxjYSs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
