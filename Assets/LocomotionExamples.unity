@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14703594, g: 0.36398482, b: 0.57992315, a: 1}
+  m_IndirectSpecularColor: {r: 0.14735895, g: 0.36533105, b: 0.57877517, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -353,14 +353,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sessionID: 
   participantID: 0
-  minPlatformHeight: 0
-  maxPlatformHeight: 0
-  minPlatformDistance: 0
-  maxPlatformDistance: 0
-  minPlatformSpeed: 0
-  maxPlatformSpeed: 0
-  environment: 0
-  skybox: 0
+  height: 50
+  platformManager: {fileID: 229433973}
 --- !u!4 &134147768
 Transform:
   m_ObjectHideFlags: 0
@@ -625,11 +619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d49910a4ed77b6c4f9b8e3e9f424b4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformPrefab: {fileID: 6250546437430344718, guid: 76ddd06e1aba39c43900889e0a2c7ea4, type: 3}
   platformQuantity: 5
-  comets: []
-  nonComets: []
-  platforms: []
+  platformPrefab: {fileID: 6250546437430344718, guid: 76ddd06e1aba39c43900889e0a2c7ea4, type: 3}
+  dbManager: {fileID: 134147767}
 --- !u!4 &231770837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4869577802921675287, guid: ea16c3c8c1688234fa81a4f39339bf1b, type: 3}
@@ -3237,7 +3229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 487905253}
-  environment: {fileID: 0}
+  dbManager: {fileID: 134147767}
   interactor: {fileID: 1642029044}
   activeState: {fileID: 1632163221992278921}
   isSelected: 0
