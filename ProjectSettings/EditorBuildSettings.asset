@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 9e92ee957ff1aa94e893f2067911f35e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VRTask.unity
     guid: 21a0f23e21b45a14488d1239257ccd85
+  - enabled: 1
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/60.0.0/Example Scenes/LocomotionExamples.unity
+    guid: 3082c45bad6c2e943b2e8ec3aa58855a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 915a885fd3f74ab4fbe5c0acbc600c5b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4c447c04db6c2124c96d0b68b0b14e08, type: 2}
